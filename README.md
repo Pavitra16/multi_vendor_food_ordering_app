@@ -76,30 +76,15 @@ API: PATCH /api/my/restaurant/orders/:id
 Status options typically:
 placed → confirmed → preparing → out_for_delivery → completed
 
-
-project/
-├── backend/
-│   ├── src/
-│   │   ├── models/         # MongoDB schemas
-│   │   ├── routes/         # API endpoints
-│   │   ├── controllers/    # Business logic
-│   │   ├── middleware/     # Auth, error handling
-│   │   └── index.js        # Server entry
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/     # UI elements
-│   │   ├── pages/          # Screens
-│   │   ├── api/            # Axios API calls
-│   │   └── App.jsx
-│   └── package.json
-│
-└── README.md
+4.)folder structure
+<img width="762" height="684" alt="image" src="https://github.com/user-attachments/assets/1be4974b-6f92-4cf1-840f-47d4f2383299" />
+Check out https://github.com/user-attachments/assets/1be4974b-6f92-4cf1-840f-47d4f2383299
+for folder structure
 
 
 
-▶5. Project Setup Steps
+
+5. Project Setup Steps
 Backend
 cd backend
 npm install
@@ -109,13 +94,6 @@ Frontend
 cd frontend
 npm install
 npm run dev
-
-Backend default: http://localhost:7001
-Frontend default: http://localhost:5173
-
-
-Frontend
-VITE_API_BASE_URL="http://localhost:7001"
 
 
  Database Schema (Simple & Clean)
