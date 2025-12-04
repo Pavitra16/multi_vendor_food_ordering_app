@@ -78,8 +78,7 @@ placed → confirmed → preparing → out_for_delivery → completed
 
 4.)folder structure
 <img width="762" height="684" alt="image" src="https://github.com/user-attachments/assets/1be4974b-6f92-4cf1-840f-47d4f2383299" />
-Check out https://github.com/user-attachments/assets/1be4974b-6f92-4cf1-840f-47d4f2383299
-for folder structure
+
 
 
 
