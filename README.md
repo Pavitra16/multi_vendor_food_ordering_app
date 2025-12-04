@@ -13,17 +13,15 @@ Persistent data storage
 
 Simple UI for navigation
 
-Basic authentication (if implemented)
+Basic authentication 
 
  2. Tech Stack
-Frontend: React, Axios, Tailwind (optional)
+Frontend: React, Axios, Tailwind 
 Backend: Node.js, Express.js
 Database: MongoDB
-Other: Multer/Cloudinary (if images), JWT/Auth0 (optional), Stripe (optional)
-You can remove anything your team didn’t use.
+Other: Multer/Cloudinary , JWT/Auth0 , Stripe 
 
 3. Project Workflow (Core Explanation)
-This is the only section your teacher actually wants — how the app works end-to-end.
 A. User Workflow
 Home Page Loads
 Frontend requests list of restaurants from backend
@@ -57,7 +55,7 @@ B. Restaurant Owner Workflow
 
 Owner Logs In
 
-Token generated (if auth enabled)
+Token generated 
 
 Owner Creates/Updates Restaurant
 
@@ -78,10 +76,7 @@ API: PATCH /api/my/restaurant/orders/:id
 Status options typically:
 placed → confirmed → preparing → out_for_delivery → completed
 
-That’s the entire workflow.
-Short, clean, understandable, exam-friendly.
 
-4. Folder Structure
 project/
 ├── backend/
 │   ├── src/
@@ -101,6 +96,7 @@ project/
 │   └── package.json
 │
 └── README.md
+
 
 
 ▶5. Project Setup Steps
@@ -146,7 +142,7 @@ Order
   "totalAmount": "Number"
 }
 
-9. API Documentation (Student-Level Simple)
+9. API Documentation 
 Restaurant APIs
 GET /api/restaurants
 GET /api/restaurants/:id
